@@ -14,6 +14,8 @@ public class HelloController {
     @RequestMapping("/")
     public Map<String, String> index() {
     	HashMap<String, String> map = new HashMap<>();
+    	map.put("author", "Thirumurthy");
+    	map.put("type","Docker KSS-1");
         map.put("result", "Hello World from java");
         return map;
     }
